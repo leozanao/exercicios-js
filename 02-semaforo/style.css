@@ -1,0 +1,42 @@
+#fundo{
+    width: 400px;
+    display: block;
+    margin: auto;
+}
+#buttons{
+    padding-top: 10px;
+    margin-left: 17vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#red:hover{
+    background-color: red;
+    color: white;
+    border: 3px solid red;
+    border-radius: 5px;
+}
+#yellow:hover{
+    background-color: yellow;
+    color: black;
+    border: 3px solid yellow;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#green:hover{
+    background-color:green;
+    color: white;
+    border: 3px solid green;
+    border-radius: 5px;
+}
+#automatic:hover{
+    background-image: linear-gradient(to right, red, green);
+    color: white;
+    border: 3px solid rgba(255, 255, 0, 0.801);
+    border-radius: 5px;
+}
+#semaforos{
+    width: 55px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(57%,-144%);
+}
